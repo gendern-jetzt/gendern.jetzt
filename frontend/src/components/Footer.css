@@ -1,0 +1,43 @@
+footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.footer {
+  flex-shrink: 0;
+  padding: 1rem 0;
+  color: #fff;
+  background-color: #17403e;
+  width: 100%;
+}
+
+.footer p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.footer ul {
+    display: flex;
+}
+
+.footer a {
+    margin: 1rem;
+    color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  footer {
+    align-items: flex-start;
+  }
+  .footer ul {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .footer a {
+    margin: 0;
+  }
+}

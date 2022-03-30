@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "model"
+version = "0.1.0"
+description = ""
+authors = ["pajowu <git@ca.pajowu.de>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+requests = "^2.27.1"
+click = "^8.0.3"
+numpy = ">=1.22.0"
+scipy = ">=1.8.0"
+flair = {git = "https://github.com/flairNLP/flair"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

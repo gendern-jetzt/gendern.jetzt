@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tokenizer"
+version = "0.1.0"
+description = ""
+authors = ["Philipp Müller <philipp.n.mueller@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+spacy = "3.2"
+de_core_news_sm = { url = "https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-3.2.0/de_core_news_sm-3.2.0.tar.gz" }
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

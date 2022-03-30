@@ -1,0 +1,19 @@
+.supported-by {
+  margin: 5rem auto;
+}
+
+.supported-by-logos {
+  display: flex;
+  justify-content: center;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 992px) {
+  h1 {
+      font-size: 2rem;
+  }
+}

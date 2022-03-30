@@ -1,0 +1,48 @@
+/* Including Urbanist font */
+@font-face {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("./fonts/urbanist/urbanist-regular.woff2") format("woff2"),
+    url("./fonts/urbanist/urbanist-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("./fonts/urbanist/urbanist-500.woff2") format("woff2"),
+    url("./fonts/urbanist/urbanist-500.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("./fonts/urbanist/urbanist-600.woff2") format("woff2"),
+    url("./fonts/urbanist/urbanist-600.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("./fonts/urbanist/urbanist-700.woff2") format("woff2"),
+    url("./fonts/urbanist/urbanist-700.woff") format("woff");
+}
+
+body {
+  font-family: "Urbanist", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

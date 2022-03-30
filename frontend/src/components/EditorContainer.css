@@ -1,0 +1,77 @@
+.editor {
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px;
+  border-radius: 1rem;
+  max-width: 90%;
+  margin: 20px auto;
+  padding: 2rem;
+  min-height: 18rem;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.maybe {
+  display: inline;
+  background-color: lightcoral;
+  direction: ltr;
+  unicode-bidi: bidi-override;
+  border-radius: 4px;
+  padding: 1px 1px;
+}
+
+.yes {
+  display: inline;
+  background-color: lightblue;
+  direction: ltr;
+  unicode-bidi: bidi-override;
+  border-radius: 4px;
+  padding: 1px 1px;
+}
+
+
+.btn-toolbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.check-toolbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.btn {
+  background: transparent;
+  border: none;
+  color: #ababab;
+  max-width: 1.5rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.check-btn {
+  max-width: 6em;
+  text-align: right;
+}
+
+.btn:hover {
+  color: #17403e;
+}
+
+.clear-btn {
+  margin-left: .75rem;
+}
+
+@media screen and (max-width: 992px) {
+  .editor {
+    font-size: 1rem;
+  }
+  .btn {
+    max-width: 1.2rem;
+  }
+  .check-btn {
+    max-width: 6rem;
+  }
+}

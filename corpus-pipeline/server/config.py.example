@@ -1,0 +1,1 @@
+DB_CONFIG = {"provider": "sqlite", "filename": "data.sqlite", "create_db": True}
